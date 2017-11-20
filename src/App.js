@@ -6,7 +6,7 @@ import './App.css';
 // const url = "https://share.plexchat.com/7HF57"
 // const url = "http://goo.gl/xPQjhV"
 
-// GANES
+// 7HF57
 // 53c31860-b5cc-11e7-81ea-4d1634d121b8  -- public room
 // 1c520520-669f-11e7-ad69-9ba6bed4c60f  -- members room
 
@@ -14,10 +14,12 @@ import './App.css';
 // const url = "https://app.adjust.com/p5xfpy?deeplink=plexchat%3A%2F%2F%3FspaceInviteCode=7HF57";
 
 const arrayOfURL = [
-  "https://share.plexchat.com/GANES",
-  "https://share.plexchat.com/GANES/",
-  "https://share.plexchat.com/GANES/asdf",
-  "https://share.plexchat.com/GANES/53c318601ea",
+  "http://192.168.7.168:3001/7HF57",
+  "http://192.168.7.168:3001/7HF57/",
+  "http://192.168.7.168:3001/7HF57/asdf",
+  "http://192.168.7.168:3001/7HF57/01dbdbe0296",
+  "https://share.plexchat.com/7HF57",
+  "https://share.plexchat.com/7HF57/53c318601ea",
 ];
 
 class App extends Component {
