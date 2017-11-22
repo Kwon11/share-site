@@ -9,24 +9,18 @@ import './App.css';
 // 7HF57
 // 53c31860-b5cc-11e7-81ea-4d1634d121b8  -- public room
 // 1c520520-669f-11e7-ad69-9ba6bed4c60f  -- members room
-
+// "1a9fb2f01f3" -- staging auto join room link room
 // const url = "https://app.adjust.com/?deep_link="
 // const url = "https://app.adjust.com/p5xfpy?deeplink=plexchat%3A%2F%2F%3FspaceInviteCode=7HF57";
-
 const arrayOfURL = [
-  // "http://192.168.7.168:3001/7HF57",
-  // "http://192.168.7.168:3001/7HF57/",
-  // "http://192.168.7.168:3001/7HF57/asdf",
-  // "http://192.168.7.168:3001/7HF57/01dbdbe0296",
-  // "http://192.168.7.168:3001/7HF57/01dbdbe3296",
-  // "https://share.plexchat.com/7HF57",
-  // "https://share.plexchat.com/7HF57/53c318601ea",
-  {label: 'room link', url: "http://192.168.7.168:3001/P8NL5/8815ac60cbf" },
-  {label: 'plex link', url: "http://192.168.7.168:3001/P8NL5" },
-  {label: 'bad plex link', url: "http://192.168.7.168:3001/P9NL3"},
-  {label: 'plex link with slash', url: "http://192.168.7.168:3001/P8NL5/" },
-  {label: 'bad room link (should be filtered by server)', url: "http://192.168.7.168:3001/P8NL5/2342" },
-  {label: 'bad room link (will be sent to app, should go to plex)', url: "http://192.168.7.168:3001/P8NL5/8823949ab83" },
+  {label: 'chat devel plex link invasion', url: "http://192.168.7.168:3001/7HF57/" },
+  {label: 'chat devel room link invasion nsfw test', url: "http://192.168.7.168:3001/7HF57/01dbdbe0296" },
+  {label: 'east room link', url: "http://192.168.7.168:3001/2K48X/1a9fb2f01f3" },
+  {label: 'east plex link', url: "http://192.168.7.168:3001/2K48X" },
+  {label: 'east plex link with slash \n works normally', url: "http://192.168.7.168:3001/2K48X/" },
+  {label: 'east bad plex link\n nothing happens', url: "http://192.168.7.168:3001/P9NL3"},
+  {label: 'east bad room link (should be filtered by server) \n just goes to plex', url: "http://192.168.7.168:3001/2K48X/2342" },
+  {label: 'east bad room link (will be sent to app, should go to plex)', url: "http://192.168.7.168:3001/2K48X/8823949ab83" },
 ];
 
 class App extends Component {
@@ -51,7 +45,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">username: tester</h1>
+          <h1 className="App-title">password: test</h1>
         </header>
         {this.getListOfURL()}
       </div>
