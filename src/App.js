@@ -13,8 +13,8 @@ import './App.css';
 // const url = "https://app.adjust.com/?deep_link="
 // const url = "https://app.adjust.com/p5xfpy?deeplink=plexchat%3A%2F%2F%3FspaceInviteCode=7HF57";
 const arrayOfURL = [
-  {label: 'chat devel plex link invasion', url: "http://192.168.7.168:3001/7HF57/" },
-  {label: 'chat devel room link invasion nsfw test', url: "http://192.168.7.168:3001/7HF57/01dbdbe0296" },
+  {label: 'chat devel plex link', url: "http://192.168.7.168:3001/YW0HH/" },
+  {label: 'chat devel room link', url: "http://192.168.7.168:3001/YW0HH/a244b840de9" },
   {label: 'east room link', url: "http://192.168.7.168:3001/2K48X/1a9fb2f01f3" },
   {label: 'east plex link', url: "http://192.168.7.168:3001/2K48X" },
   {label: 'east plex link with slash \n works normally', url: "http://192.168.7.168:3001/2K48X/" },
