@@ -12,15 +12,18 @@ import './App.css';
 // "1a9fb2f01f3" -- staging auto join room link room
 // const url = "https://app.adjust.com/?deep_link="
 // const url = "https://app.adjust.com/p5xfpy?deeplink=plexchat%3A%2F%2F%3FspaceInviteCode=7HF57";
+
+// const url = '192.168.7.168';
+const url = "share.plexchat.com";
+// const url = '192.168.1.3';
+
 const arrayOfURL = [
-  {label: 'chat devel plex link', url: "http://192.168.7.168:3001/YW0HH/" },
-  {label: 'chat devel room link', url: "http://192.168.7.168:3001/YW0HH/a244b840de9" },
-  {label: 'east room link', url: "http://192.168.7.168:3001/2K48X/1a9fb2f01f3" },
-  {label: 'east plex link', url: "http://192.168.7.168:3001/2K48X" },
-  {label: 'east plex link with slash \n works normally', url: "http://192.168.7.168:3001/2K48X/" },
-  {label: 'east bad plex link\n nothing happens', url: "http://192.168.7.168:3001/P9NL3"},
-  {label: 'east bad room link (should be filtered by server) \n just goes to plex', url: "http://192.168.7.168:3001/2K48X/2342" },
-  {label: 'east bad room link (will be sent to app, should go to plex)', url: "http://192.168.7.168:3001/2K48X/8823949ab83" },
+  {label: 'chat prod plex link', url: `http://${url}/9ZVEW/`},
+  {label: 'chat prod room link', url: `http://${url}/9ZVEW/9f49f6309e6`},
+  {label: 'east room link', url: `http://${url}/2K48X/1a9fb2f01f3`},
+  {label: 'east plex link', url: `http://${url}/2K48X`},
+  {label: 'east bad room link (should be filtered by server) \n just goes to plex', url: `http://${url}/2K48X/2342`},
+  {label: 'east bad room link (will be sent to app, should go to plex)', url: `http://${url}/2K48X/8823949ab83`},
 ];
 
 class App extends Component {
